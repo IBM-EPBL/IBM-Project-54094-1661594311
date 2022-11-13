@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Performance Prediction</title>
+</head>
+<body>
+    <h1>Car Performance Prediction</h1>
+    <h2>Using Random Forest</h2>
+    <form method="POST" action ="/predict">
+        <p>no.of cylinders</p>
+        <input name="cyl"required>
+        <p>Displacement</p>
+        <input name="dis"required>
+        <p>Horse Power</p>
+        <input name="hp"required>
+        <p>Weight</p>
+        <input name="w"required>
+        <p>Acceleration</p>
+        <input name="a"required>
+        <p>Model Year</p>
+        <input name="my"required>
+        <p>Orgin</p>
+        <input name="ori"required>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+
+    </form>
+</body>
+</html>
