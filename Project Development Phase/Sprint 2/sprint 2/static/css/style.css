@@ -1,0 +1,55 @@
+/*box*/
+.form{
+    display:flex;
+    flex-direction: column;
+    height:625px;
+    width: 500px;
+    border:0.5px solid black;
+    align-items: center;
+    margin:auto;
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: inset .5px .5px rgba(0,0,0, 0.4);
+    border-radius: 25px;
+
+}
+.form h1{
+    
+    color: white;
+    font-size: 2rem;
+    border-bottom: 3px solid rgba(255,255,255.05);
+    margin: 17px;
+}
+
+.box{
+    padding: 10px;
+    margin: 15px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(243, 221, 221, 0.5);
+    color:black;
+    font-size: 1.2rem;
+
+}
+
+#submit{
+    padding: 10px 20px;
+    margin-top: 10px;
+    width: 50%;
+    background-color:rgb(44, 142, 235);
+    color:white;
+    font-size: 1.2rem;
+    font-weight: bold;   
+    border-radius: 20px; 
+
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgba(255,255,255.03);
+    color: rgb(19, 37, 35);
+}
+::placeholder{
+    color: white;
+}
