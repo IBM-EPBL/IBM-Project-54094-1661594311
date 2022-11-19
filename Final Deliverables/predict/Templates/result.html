@@ -1,0 +1,101 @@
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='js/bootstrap.bundle.min.js')}}">
+
+    <link rel="stylesheet" href="{{url_for('static',filename='css/carousel.css')}}"> 
+    <link rel="stylesheet" href="{{url_for('static',filename='css/1.css')}}">
+    <style>
+        input[type="text"]{
+            text-align: center;
+        }
+    </style>
+   
+    <style>
+         input[type="text"]{
+             text-align: center;
+            }
+        body
+        {
+            background-size:cover;
+            background-image: url({{url_for('static',filename='img/sunrise.jpeg')}})
+        }
+    </style>
+
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Welcome  <span>doe</span></h2>
+            <ul>
+                <li><a href="{{url_for('another')}}">Analyse</a></li>
+                <li><a href="{{url_for('about')}}">About</a></li>
+                <li><a href="{{url_for('contact')}}">contact us</a></li>
+                
+        
+            </ul>
+            <img src="{{url_for('static',filename='img/download.png')}}"  alt="logo" style="width:50px;" class="rounded-pill">
+  
+        </nav>
+        <div>
+        <h3>{{Efficiency}}</h3> 
+
+
+    </div>
+
+
+        <form action="\">
+            <input type="submit" value="Back to Home page" class="btn btn-light">
+        </form>
+          
+        
+    </div>
+        
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/result.css')}}">
+    <style>
+         input[type="text"]{
+             text-align: center;
+            }
+        body
+        {
+                height:90vh;
+                width: 100%;
+                /* background: linear-gradient(black,rgb(44, 41, 41),black);
+                background-size: cover; */
+
+            background-size:cover;
+            background-image: url({{url_for('static',filename='img/dark.jpg')}}) 
+        } 
+    </style>
+</head>
+<body> 
+    <div>
+        <h3>{{Efficiency}}</h3> 
+    </div>
+     <div class="image">
+			<image src="{{url_for('static',filename='img/car.gif')}}" >
+        </div>
+
+
+    <form action="\">
+            <input type="submit" value="Back to Home page" class="btn btn-light">
+    </form>
+          
+</body>
+</html>
