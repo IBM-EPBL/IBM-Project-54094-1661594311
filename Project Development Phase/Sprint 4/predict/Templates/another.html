@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    <style>
+         input[type="text"]{
+             text-align: center;
+            }
+        body
+        {
+                height:90vh;
+                width: 100%;
+                /* background: linear-gradient(black,rgb(44, 41, 41),black);
+                background-size: cover; */
+
+            background-size:cover;
+            background-image: url({{url_for('static',filename='img/dark.jpg')}}) 
+        } 
+    </style>
+</head>
+<body>
+    <form action="Register" method="post" class="form" autocomplete="off">
+
+        <h1>Car performance prediction</h1>
+        <input type="text" name="12" class="box" placeholder="No. of cylinders">
+        <input type="text" name="34" class="box" placeholder="Displacement">
+        <input type="text" name="56" class="box" placeholder="Horse Power">
+        <input type="text" name="3" class="box" placeholder="Weight in pounds">
+        <input type="text" name="4" class="box" placeholder="Acceleration">
+        <input type="text" name="5" class="box" placeholder="Model year">
+        <input type="text" name="6" class="box" placeholder="Origin">
+        <input type="submit" value="predict" id="submit">
+    </form>
+    <form action="\">
+        <input type="submit" value="Back" class="btn btn-light">
+            </form> 
+        
+</body>
+</html>
