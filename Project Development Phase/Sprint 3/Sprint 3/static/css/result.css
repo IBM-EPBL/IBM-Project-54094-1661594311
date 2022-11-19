@@ -1,0 +1,76 @@
+
+h1{
+    height: 150px;
+
+    text-align: center;
+}
+
+h3
+{
+    padding: 150px 100px;
+    text-align: center;
+    color: aliceblue;
+}
+form{
+    padding: 70px 600px;
+    
+}
+/* .image
+{
+    width: 35%;
+    margin-top: 8%;
+    z-index:-1;
+ 
+}  */
+img{
+    width: 20rem;
+    animation: car 5s ease-in-out;
+    z-index:-5
+} 
+@keyframes car{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-220%);
+    }
+}
+@media screen and (max-width:1200px) {
+    .content{
+        width: 100%;
+        text-align: end;
+    }
+    .image{
+        width: 100%;
+        position: absolute;
+        bottom: -5%;
+        display: flex;
+        justify-content:end;
+    }
+    img{
+        width: 20rem;
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .content h1{
+        margin-bottom: 5%;
+        width: 100%;
+        text-align: end;
+    }
+    .content h3{
+        margin-bottom: 5%;
+    }
+    .image{
+        width: 100%;
+        position:absolute;
+        bottom: -5%;
+        display: flex;
+        justify-content: end;
+    }
+    img{
+        width: 20rem;
+    }
+    
+}
+
