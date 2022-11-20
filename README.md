@@ -18,4 +18,4 @@ YouTube link : https://youtu.be/i1re_oayc8o
 
 This project done by,
 
-                    S.DEEPAK,B.KAMALESH,R.PRIYANKA,P.SUDHARSHAN
+                    S.DEEPAK,B.KAMALESH,R.PRIYANKHA,P.SUDHARSHAN
